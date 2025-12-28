@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  web:
+    image: node:20-alpine
+    container_name: carhaven_frontend_ci
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "8081:8081"
+    # Don't set NODE_ENV=production until after build
+    command: >
+      sh -c "
+        npm ci --include=dev &&
+        npx vite build &&
+        NODE_ENV=production npx vite preview --host 0.0.0.0 --port 8081
+      "
+
