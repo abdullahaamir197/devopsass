@@ -259,13 +259,6 @@ The pipeline sends HTML-formatted emails with:
 
 ---
 
-## 👤 Author
-
-**Hamza Naeem**
-- 📧 Email: hamzanaeem832@gmail.com
-- 🐙 GitHub: [@hamzanaeem10](https://github.com/hamzanaeem10)
-
----
 
 ## 🙏 Acknowledgments
 
@@ -278,10 +271,6 @@ The pipeline sends HTML-formatted emails with:
 - [Jenkins](https://www.jenkins.io) - CI/CD
 
 ---
-
-<p align="center">
-  Made with ❤️ by Hamza Naeem
-</p>
 
 
 
